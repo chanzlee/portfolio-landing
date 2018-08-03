@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+title {
+  text-transform: capitalize;
+}
+
 body {
   font-family: nimbus-sans, sans-serif;
   font-size: 15px;
@@ -54,7 +58,7 @@ li a {
   height: auto;
 }
 
-.container {
+.custom-container {
   width: 100%;
   padding: 0;
   position: relative;
@@ -113,8 +117,12 @@ li a {
   transform: translate(-50%,-50%);
 }
 
-.opacity {
+.opacity93 {
   opacity: 0.93;
+}
+
+.opacity75 {
+  opacity: 0.75;
 }
 
 .whiteborder {
