@@ -10,6 +10,16 @@ body {
   line-height: 1.4;
 }
 
+header, footer {
+  background-color: #0f0f0f;
+  min-height: 80px;
+  position:static;
+}
+
+strong, em {
+  font-weight: bold;
+}
+
 img {
   width: 1600px;
   height: 800px;
@@ -49,13 +59,15 @@ li a {
   padding: 0;
   position: relative;
   background-color: #0f0f0f;
+  margin: 0;
+  padding: 0;
+  /* overide bootstrap style */
 }
 
 .title-container {
   max-width: 80%;
   max-height: 50%;
   overflow:hidden;
-  border: 8px double #e1e1e1;
   padding: 0;
 
   color: #e1e1e1;
@@ -79,7 +91,8 @@ li a {
   max-width: 80%;
   max-height: 50%;
   overflow: hidden;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
   letter-spacing: auto;
   text-align: center;
 }
@@ -96,10 +109,14 @@ li a {
 
 .position2 {
   top: 70%;
-  left: 50%;
+  left: 49%;
   transform: translate(-50%,-50%);
 }
 
 .opacity {
   opacity: 0.93;
+}
+
+.whiteborder {
+  border: 8px double #e1e1e1;
 }
