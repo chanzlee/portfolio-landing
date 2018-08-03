@@ -35,6 +35,10 @@ img {
   padding-top: 10px;
 }
 
+.container h2 {
+  padding: 5% 0;
+}
+
 ul {
   overflow: auto;
   list-style-type: none;
@@ -56,10 +60,6 @@ li a {
   text-decoration: none;
   color: #e1e1e1;
   text-transform: uppercase;
-}
-
-blockquote {
-  padding: 20% 0;
 }
 
 .horizon-fitting {
@@ -150,6 +150,17 @@ blockquote {
   border: 8px double #e1e1e1;
 }
 
-.textaligncenter {
+.custom-blockquote {
   text-align: center;
+  border: 0;
+}
+
+.bgwhite {
+  background-color: #c1c1c1;
+}
+.margintop {
+  margin: 5% 0 0 0;
+}
+.paddingtop {
+  padding: 5% 0;
 }
