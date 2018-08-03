@@ -20,31 +20,37 @@ header, footer {
   position:static;
 }
 
-strong, em {
+em {
   font-weight: bold;
 }
 
-img {
-  width: 1600px;
-  height: 800px;
-  z-index: 8000;
+strong {
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
-.jumbotron h1, .jumbotron h2 {
+img {
+  width: 100%;
+  height: auto;
+  z-index: 5;
+}
+
+.jumbotron h1, .jumbotron h2, .jumbotron p{
   text-transform: capitalize;
   padding-top: 10px;
 }
 
 .container h2 {
   padding: 5% 0;
+  text-transform: capitalize;
 }
 
-ul {
+.list-container ul {
   overflow: auto;
   list-style-type: none;
 }
 
-li {
+.list-container li {
   height: auto;
   float: left;
   margin-right: 0px;
@@ -52,11 +58,11 @@ li {
   padding: 0 20px;
 }
 
-li:last-child {
+.list-container li:last-child {
   border-right: none;
 }
 
-li a {
+.list-container li a {
   text-decoration: none;
   color: #e1e1e1;
   text-transform: uppercase;
@@ -118,6 +124,10 @@ li a {
   position: static;
 }
 
+.floatleft {
+  floatleft
+}
+
 .shallow {
   z-index: 100;
 }
@@ -162,5 +172,24 @@ li a {
   margin: 5% 0 0 0;
 }
 .paddingtop {
-  padding: 5% 0;
+  padding: 5% 0 0 0;
+}
+.paddingright {
+  padding: 0 5% 0 0;
+}
+
+.paddingbottom {
+  padding: 0 0 5% 0;
+}
+
+.paddingleft{
+  padding: 0 0 0 5%;
+}
+
+.paddingleft.paddingtop {
+  padding: 5% 0 0 5%;
+}
+
+.textaligncenter {
+  text-align: center;
 }
