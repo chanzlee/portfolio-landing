@@ -58,6 +58,18 @@ li a {
   text-transform: uppercase;
 }
 
+.title-container h2 {
+  font-size: 55px;
+  padding: 75px 100px 0px 100px;
+  letter-spacing: auto;
+}
+
+.title-container h3 {
+  font-size: 30px;
+  padding: 25px 100px 75px 100px;
+  letter-spacing: auto;
+}
+
 .list-container {
   max-width: 80%;
   max-height: 50%;
