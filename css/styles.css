@@ -10,6 +10,12 @@ body {
   line-height: 1.4;
 }
 
+img {
+  width: 1600px;
+  height: 800px;
+  z-index: 8000;
+}
+
 .container {
   width: 100%;
   padding: 0;
@@ -23,6 +29,10 @@ body {
   overflow:hidden;
   border: 8px double #e1e1e1;
   padding: 0;
+
+  color: #e1e1e1;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .list-container {
@@ -32,6 +42,20 @@ body {
 
   font-size: 15px;
   letter-spacing: auto;
-
   text-align: center;
 }
+
+.fixed {
+  position: fixed;
+}
+
+.position1 {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.position2 {
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
