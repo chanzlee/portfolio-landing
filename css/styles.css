@@ -82,3 +82,12 @@ li a {
   top: 70%;
   left: 50%;
   transform: translate(-50%,-50%);
+
+.horizon-fitting {
+  max-width: 100%;
+  height: auto;
+}
+
+.opacity {
+  opacity: 0.93;
+}
