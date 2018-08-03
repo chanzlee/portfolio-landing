@@ -58,6 +58,10 @@ li a {
   text-transform: uppercase;
 }
 
+blockquote {
+  padding: 20% 0;
+}
+
 .horizon-fitting {
   max-width: 100%;
   height: auto;
@@ -144,4 +148,8 @@ li a {
 
 .whiteborder {
   border: 8px double #e1e1e1;
+}
+
+.textaligncenter {
+  text-align: center;
 }
