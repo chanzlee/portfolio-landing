@@ -1,6 +1,6 @@
-# _My First Webpage_
+# _Portfolio Landing Webpage_
 
-#### _Html/CSS Exercise for Epicodus, 07.30.2018_
+#### _Html/CSS Exercise for Epicodus, 08.02.2018_
 
 #### By _**Chan Lee**_
 
