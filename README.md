@@ -12,6 +12,7 @@ _.this is landing webpage for my coding portfolio. It can be linked to the other
 
 * Clone this repository
 * Open index.html file
+* you can access to Github page by entering https://goenchan.github.io/portfolio-landing
 
 ## Known Bugs
 
